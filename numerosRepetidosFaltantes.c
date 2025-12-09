@@ -29,7 +29,7 @@ int main(void){
 
     }while (n < 1);
 
-
+    
     //Arreglo a tratar
 
     int arr[n];
