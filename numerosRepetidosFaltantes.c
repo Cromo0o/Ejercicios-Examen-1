@@ -4,6 +4,8 @@ int main(void){
 
     int n;
     
+    //Ingreso y validación de la entrada
+    
     do{
     
         printf("Ingrese el tamanio del arreglo: ");
@@ -26,6 +28,9 @@ int main(void){
         printf("\n");
 
     }while (n < 1);
+
+
+    //Arreglo a tratar
 
     int arr[n];
 
@@ -58,8 +63,7 @@ int main(void){
 
     }
 
-    printf("\n");
-    printf("\n");
+    printf("\n\n");
 
     printf("Vector de frecuencias\n");
 
@@ -88,9 +92,10 @@ int main(void){
         printf("\n");
     }
     
-    printf("\n");
-    printf("\n");
+    printf("\n\n");
     
+
+    //Numeros repetido y faltantes
 
     printf("Repetidos: ");
     for (int i = 0; i < n + 1; i++){
